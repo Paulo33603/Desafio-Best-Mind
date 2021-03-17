@@ -289,7 +289,7 @@ namespace DesafioBestMind
 
         public static MySqlConnection DataBaseConnection()
         {
-            string connectionString = "Server=localhost;Database=db_best_mind;Uid=root;Pwd=Bp!106397752;";
+            string connectionString = "Server=localhost;Database=db_best_mind;Uid=root;Pwd=1234;";
             var cnn = new MySqlConnection(connectionString);
 
             return cnn;
